@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Actividad 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/body.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="#" class="nav-link active">Datos del cliente</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Información adicional</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Pedido</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Datos de pago</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link active"><img src="img/hehe.jpg" alt="" width="60" height="60"></a>
+      </li>
+    </ul>
+  </nav>
+<div class="container">
+  <br>
+  <h2>Alta de clientes</h2>
+<form class="was-validated" action="informacion.html" method="post">
+  <div class="mb-3 mt-3">
+      <label for="nombre" class="form-label">Nombre(3-20 letras):</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Enter your name" required pattern="[a-zA-Z]{3,20}">
+      <div class="invalid-feedback">Por favor,complete el campo correctamente</div>
+      <div class="valid-feedback">Válido</div>
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="email" class="form-label">Correo electrónico:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <div class="invalid-feedback">Por favor,complete el campo correctamente</div>
+        <div class="valid-feedback">Válido</div>
+      </div>
+      <div class="mb-3 mt-3">
+          <label for="tel" class="form-label">Teléfono (9 números):</label>
+          <input type="tel" class="form-control" id="tel" placeholder="Phone number" required pattern="[0-9]{9}">
+          <div class="invalid-feedback">Por favor,complete el campo correctamente</div>
+          <div class="valid-feedback">Válido</div>
+        </div>
+        <div class="form-check form-switch">
+      <input type="checkbox" class="form-check-input" id="miswitch" name="news" value="yes">
+      <label for="miswitch" class="form-check-label">Recibir información de ofertas y ventajas al darse de alta</label>
+    </div>
+      <div class="container mt-3">
+          <button type="submit" class="btn btn-outline-primary" name="button">Siguiente</button>
+        </div>
+        </form>
+      </div>
+
+
+</body>
+<footer>
+<div class="container p-5 my-5 bg-dark text-white text-center">
+  <p><i>Contacto</i></p>
+  <p><i>Empresa: Halley´s coorporation</i></p>
+  <p><i>Dirección: Calle Tolosa 2 28041 Madrid.</i></p>
+  <p><i>Teléfono: (+34) 91 222 22 22 Email: info@baroja.es</i></p>
+  <img src="img/logos.jpg" width="300" height="60" alt="">
+  <br>
+  </div>
+</footer>
+</html>
