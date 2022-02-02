@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	<equipo id="1">
+		<nombre>Atletico de Madrid</nombre>
+		<cuidad>Madrid</cuidad>
+		<entrenador>El Cholo</entrenador>
+		<jugadores>
+			<jugador posicion="delantero">
+				<nombre>Luis Suarez</nombre>
+				<nacionalidad>Uruguayo</nacionalidad>
+			</jugador>
+			<jugador posicion="defensa">
+				<nombre>Mario Hermoso</nombre>
+				<nacionalidad>Española</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+</equipos>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "ejercicio8.dtd">
+<cv>
+	<nombre>Jorge Caballero</nombre>
+	<direccion>Paseo Delicias Madrid</direccion>
+	<fax>A6F352J</fax>
+	<telefono>222222222</telefono>
+	<email>alumn1@gmail.com</email>
+	<email>alumn2@gmail.com</email>
+	<idiomas>
+		<idioma nivel="alto">Español</idioma>
+		<idioma nivel="medio">Inglés</idioma>
+	</idiomas>
+</cv>

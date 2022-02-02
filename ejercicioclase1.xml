@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos_ejercicio3.css"?>
+<articulos>
+	<articulo id="1">
+		<nombre>Sofá</nombre>
+		<precio>642</precio>
+	</articulo>
+	<articulo id="2">
+		<nombre>Mesa</nombre>
+		<precio>305</precio>
+	</articulo>
+	<articulo id="3">
+		<nombre>Lámpara</nombre>
+		<precio>89</precio>
+	</articulo>
+</articulos>
